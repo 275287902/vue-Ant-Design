@@ -1,15 +1,25 @@
 {
-  "name": "vue-antd",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "高鑫 <tdida@qq.com>",
-  "private": true,
+  "name": "vue-antDesign",
+  "version": "0.0.1",
+  "description": "Ant Design components built with Vue.js",
+  "author": "TDiDa <tdida@qq.com>",
+  "main": "src/index.js",
   "scripts": {
     "dev": "node build/dev-server.js",
-    "build": "node build/build.js",
-    "test": "",
-    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
+    "build": "node build/build.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TDiDa/vue-antDesign.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-antDesign",
+    "vue-component",
+    "antDesign",
+    "ant-design"
+  ],
+  "homepage": "https://github.com/TDiDa/vue-antDesign",
   "dependencies": {
     "vue": "^1.0.21",
     "babel-runtime": "^6.0.0"
@@ -46,5 +56,6 @@
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0",
     "webpack-merge": "^0.8.3"
-  }
+  },
+  "license": "MIT"
 }
