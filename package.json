@@ -6,7 +6,8 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "node build/dev-server.js",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -21,8 +22,9 @@
   ],
   "homepage": "https://github.com/TDiDa/vue-antDesign",
   "dependencies": {
-    "vue": "^1.0.21",
-    "babel-runtime": "^6.0.0"
+    "babel-runtime": "^6.0.0",
+    "less-loader": "^2.2.3",
+    "vue": "^1.0.21"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -32,11 +34,6 @@
     "babel-preset-stage-2": "^6.0.0",
     "connect-history-api-fallback": "^1.1.0",
     "css-loader": "^0.23.0",
-    "eslint": "^2.0.0",
-    "eslint-friendly-formatter": "^1.2.2",
-    "eslint-loader": "^1.3.0",
-    "eslint-plugin-html": "^1.3.0",
-    "eslint-config-airbnb": "^6.2.0",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.13.3",
     "extract-text-webpack-plugin": "^1.0.1",
@@ -56,6 +53,5 @@
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0",
     "webpack-merge": "^0.8.3"
-  },
-  "license": "MIT"
+  }
 }

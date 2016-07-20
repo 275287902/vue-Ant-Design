@@ -3,7 +3,7 @@ import meta from './package.json'
 
 import vAlert from './components/alert'
 
-const antDesign = {
+var antDesign = {
   vAlert
 }
 
