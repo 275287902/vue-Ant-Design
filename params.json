@@ -1,6 +1,6 @@
 {
   "name": "Ant Design Vue",
   "tagline": "Ant Design components built with Vue.js",
-  "body": "# Ant Design Vue\r\n\r\n> Ant Design components built with Vue.js\r\n\r\n## Build Setup\r\n\r\n``` bash\r\n\r\n***\r\n# install dependencies\r\nnpm install\r\n\r\n# serve with hot reload at localhost:8080\r\nnpm run dev\r\n\r\n# build for production with minification\r\nnpm run build\r\n\r\n```",
+  "body": "<p align=\"center\">\r\n  <a href=\"http://ant.design\">\r\n    <img width=\"320\" src=\"https://t.alipayobjects.com/images/rmsweb/T1B9hfXcdvXXXXXXXX.svg\">\r\n  </a>\r\n</p>\r\n\r\n# Ant Design & Vue\r\n\r\n> Ant Design components built with Vue.js\r\n\r\n- [Vue官网](http://vuejs.org/)\r\n- [Ant.Design官网](http://ant.design/)\r\n\r\n## 已完成组件\r\n\r\n- Alert 警告提示\r\n- Badge 徽标数\r\n- Card 卡片\r\n- Collapse 折叠面板\r\n\r\n**(持续更新中。。。)**\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
