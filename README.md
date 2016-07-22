@@ -1,17 +1,14 @@
-# vue-Ant Design
+<p align="center">
+  <a href="http://ant.design">
+    <img width="320" src="https://t.alipayobjects.com/images/rmsweb/T1B9hfXcdvXXXXXXXX.svg">
+  </a>
+</p>
+
+# Ant Design Vue
 
 > Ant Design components built with Vue.js
 
-## Build Setup
+- [Vue官网](http://vuejs.org/)
+- [Ant.Design官网](http://ant.design/)
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-```
+**(持续更新中)**
