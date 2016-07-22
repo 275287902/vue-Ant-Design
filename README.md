@@ -1,4 +1,4 @@
-# vue-antDesign
+# vue-Ant Design
 
 > Ant Design components built with Vue.js
 

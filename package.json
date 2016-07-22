@@ -1,5 +1,5 @@
 {
-  "name": "vue-antDesign",
+  "name": "vue-ant-design",
   "version": "0.0.1",
   "description": "Ant Design components built with Vue.js",
   "author": "TDiDa <tdida@qq.com>",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/TDiDa/vue-antDesign",
   "dependencies": {
     "babel-runtime": "^6.0.0",
+    "less": "^2.7.1",
     "less-loader": "^2.2.3",
     "vue": "^1.0.21",
     "vue-router": "^0.7.13"
