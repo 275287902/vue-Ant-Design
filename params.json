@@ -1,0 +1,6 @@
+{
+  "name": "Vue-ant-design",
+  "tagline": "Ant Design Vue",
+  "body": "# vue-antDesign\r\n\r\n> Ant Design components built with Vue.js\r\n\r\n## Build Setup\r\n\r\n``` bash\r\n# install dependencies\r\nnpm install\r\n\r\n# serve with hot reload at localhost:8080\r\nnpm run dev\r\n\r\n# build for production with minification\r\nnpm run build\r\n\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
