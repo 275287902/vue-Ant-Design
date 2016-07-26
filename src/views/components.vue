@@ -2,8 +2,48 @@
 
   <div class="main-wrapper">
     <div class="ant-row">
-      <div class="ant-col-lg-4"></div>
-      <div class="main-container ant-col-lg-20">
+      <div class="ant-col-xs-24 ant-col-sm-24 ant-col-md-6 ant-col-lg-4">
+        <v-menu class="aside-container" mode="inline">
+          <menu-item>
+            <a href="/">快速上手</a>
+          </menu-item>
+          <menu-item>
+            <a href="/">安装</a>
+          </menu-item>
+          <menu-item>
+            <a href="/">更新日志</a>
+          </menu-item>
+          <sub-menu title="Components">
+            <menu-item v-link="{ name: 'alert', activeClass: 'ant-menu-item-selected' }">
+              Alert 警告提醒
+            </menu-item>
+            <menu-item v-link="{ name: 'badge', activeClass: 'ant-menu-item-selected' }">
+              Badge 徽标数
+            </menu-item>
+            <menu-item v-link="{ name: 'card', activeClass: 'ant-menu-item-selected' }">
+              Card 卡片
+            </menu-item>
+            <menu-item v-link="{ name: 'collapse', activeClass: 'ant-menu-item-selected' }">
+              Collapse 折叠面板
+            </menu-item>
+            <sub-menu title="Components">
+              <menu-item v-link="{ name: 'alert', activeClass: 'ant-menu-item-selected' }">
+                Alert 警告提醒
+              </menu-item>
+              <menu-item v-link="{ name: 'badge', activeClass: 'ant-menu-item-selected' }">
+                Badge 徽标数
+              </menu-item>
+              <menu-item v-link="{ name: 'card', activeClass: 'ant-menu-item-selected' }">
+                Card 卡片
+              </menu-item>
+              <menu-item v-link="{ name: 'collapse', activeClass: 'ant-menu-item-selected' }">
+                Collapse 折叠面板
+              </menu-item>
+            </sub-menu>
+          </sub-menu>
+        </v-menu>
+      </div>
+      <div class="main-container ant-col-xs-24 ant-col-sm-24 ant-col-md-18 ant-col-lg-20">
         <router-view keep-alive></router-view>
       </div>
     </div>
@@ -12,6 +52,11 @@
 </template>
 
 <script>
+
+import vMenu from '../../components/menu'
+let menuItem = vMenu.Item
+let subMenu = vMenu.subMenu
+
 export default {
   data: function () {
     return {
@@ -21,18 +66,25 @@ export default {
   ready: function () {},
   attached: function () {},
   methods: {},
-  components: {}
+  components: {
+    vMenu,
+    menuItem,
+    subMenu
+  }
 }
 </script>
 
 <style lang="less">
 
 .main-wrapper {
-    width: 1140px;
+    width: 96%;
     margin: 0 auto;
     border-radius: 6px;
     padding: 24px 0 0;
     margin-bottom: 24px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
 }
 
 .main-container {
@@ -78,6 +130,16 @@ export default {
   display: inline-block;
   vertical-align: top;
   padding: 0 8px;
+}
+
+.aside-container {
+    padding-bottom: 50px;
+}
+
+.aside-container .ant-menu-item a, .aside-container .ant-menu-submenu-title span, .aside-container>.ant-menu-item {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 </style>

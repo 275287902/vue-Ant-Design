@@ -45,6 +45,6 @@ export default function (router) {
 		}
   });
   router.redirect({
-	  '/':'/components'
+	  '/':'/components/alert'
 	})
 }
