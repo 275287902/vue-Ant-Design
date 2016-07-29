@@ -34,6 +34,18 @@ export default function (router) {
           component: function index(resolve) {
             require(['./views/collapse.vue'], resolve);
           },
+        },
+        '/dropdown': {
+          name: 'dropdown',
+          component: function index(resolve) {
+            require(['./views/dropdown.vue'], resolve);
+          },
+        },
+        '/button': {
+          name: 'button',
+          component: function index(resolve) {
+            require(['./views/button.vue'], resolve);
+          },
         }
       }
     },

@@ -13,7 +13,15 @@
           <menu-item>
             <a href="/">更新日志</a>
           </menu-item>
+          <sub-menu title="Baseic">
+            <menu-item v-link="{ name: 'button', activeClass: 'ant-menu-item-selected' }">
+              Button 按钮
+            </menu-item>
+          </sub-menu>
           <sub-menu title="Components">
+            <menu-item v-link="{ name: 'alert', activeClass: 'ant-menu-item-selected' }">
+              Alert 警告提醒
+            </menu-item>
             <menu-item v-link="{ name: 'alert', activeClass: 'ant-menu-item-selected' }">
               Alert 警告提醒
             </menu-item>
@@ -26,20 +34,9 @@
             <menu-item v-link="{ name: 'collapse', activeClass: 'ant-menu-item-selected' }">
               Collapse 折叠面板
             </menu-item>
-            <sub-menu title="Components">
-              <menu-item v-link="{ name: 'alert', activeClass: 'ant-menu-item-selected' }">
-                Alert 警告提醒
-              </menu-item>
-              <menu-item v-link="{ name: 'badge', activeClass: 'ant-menu-item-selected' }">
-                Badge 徽标数
-              </menu-item>
-              <menu-item v-link="{ name: 'card', activeClass: 'ant-menu-item-selected' }">
-                Card 卡片
-              </menu-item>
-              <menu-item v-link="{ name: 'collapse', activeClass: 'ant-menu-item-selected' }">
-                Collapse 折叠面板
-              </menu-item>
-            </sub-menu>
+            <menu-item v-link="{ name: 'dropdown', activeClass: 'ant-menu-item-selected' }">
+              Dropdown 下拉菜单
+            </menu-item>
           </sub-menu>
         </v-menu>
       </div>
